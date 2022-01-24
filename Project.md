@@ -2,6 +2,7 @@
 
 ## Project information
    - **Faculty Advisor:** Prof. Stanisław Radziszowski
+   - Weekly status updates for the project can be found [**here**](weeklyStatus.md).
 
 
 ## Project Description
@@ -46,11 +47,6 @@
          - Computational cost for each implementation of RSA
 
 > **Note:** other* padding schemes for RSA will be selected as part of research performed in Milestone 2. The plan for the project will be updated accordingly.
-
-
-## Weekly Progress Report
-### Milestone 1
-   - [Week 1 & 2 Progress](Week1&2.md)
 
 
 ## References
