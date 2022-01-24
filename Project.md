@@ -18,7 +18,7 @@ Add project description and information here.
 
     - Review literature for Probabilistic versions of RSA
         - Review more literature on Padding Schemes for RSA.
-        - Review how probabilistic versions of RSA help mitigate/ prevent attacks on the RSA.
+        - Review how probabilistic versions of RSA help mitigate/prevent attacks.
         - Review literature on current research for Padding Schemes of RSA.
     
     - Implement Padding schemes for RSA
