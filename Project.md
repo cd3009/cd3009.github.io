@@ -1,4 +1,4 @@
-# Padding schemes for the RSA and its Security
+# Padding Schemes for the RSA and its Security
 
 ## Project information
    - **Faculty Advisor:** Prof. Stanisław Radziszowski
@@ -45,7 +45,7 @@
          - Security for RSA implemented with/without Padding schemes
          - Computational cost for each implementation of RSA
 
-> **Note:** other* padding schemes for RSA will be selected as part of research performed in Milestone 2. The plan for the > project will be updated accordingly.
+> **Note:** other* padding schemes for RSA will be selected as part of research performed in Milestone 2. The plan for the project will be updated accordingly.
 
 
 ## Weekly Progress Report
