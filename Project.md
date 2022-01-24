@@ -1,6 +1,6 @@
 # Padding schemes for the RSA and its Security
 ## Project information
-    - Faculty Advisor: Prof. Stanisław Radziszowski
+> Faculty Advisor: Prof. Stanisław Radziszowski
 
 ## Project Description
 &nbsp;&nbsp;&nbsp;&nbsp;The **Rivest-Shamir-Adleman** algorithm commonly known as the RSA Algorithm is widely used in today’s world. RSA is mainly used with digital signatures for authenticating users. It is based on the factoring problem. In simple words, the crux of RSA works with 2 large prime numbers and their product. The security of RSA is based on the fact that factoring the product to find the 2 large prime numbers is extremely difficult. However, there are attacks that could break RSA, if the prime numbers are not chosen wisely. There are also attacks on the nature of RSA (For e.g. RSA is deterministic), which contribute to the algortihm being susceptible to attacks.
