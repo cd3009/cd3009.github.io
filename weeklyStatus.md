@@ -1,7 +1,7 @@
 # Weekly Progress Status
 
 ## Progress for Milestone 1
-### Progress for Weeks 1 and 2 ( 01/10/22 - 01/21/22 )
+### Progress for Weeks 1 and 2
 - Reviewed literature on RSA and its Padding Schemes
 - Reviewed current state of practical implementations of RSA 
 - Topics discussed with Project Advisor:-
