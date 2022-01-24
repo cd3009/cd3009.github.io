@@ -3,3 +3,5 @@ plugins:
 - jekyll-remote-theme
 
 title: "Calvin Ryan D'Souza"
+
+theme: jekyll-theme-minimal
