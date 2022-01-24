@@ -1,5 +1,4 @@
-## Progress for weeks 1 and 2
-
+# Progress for weeks 1 and 2
    - Reviewed literature on RSA
    - Reviewed literature on Padding Schemes for RSA
    - Reviewed current state of practical implementations of RSA 
