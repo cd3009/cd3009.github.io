@@ -46,5 +46,14 @@
 
 ## Weekly Progress Report
 ### Milestone 1
-   - [Week 1 Progress](Week1.md)
-   - [Week 2 Progress](Week2.md)
+   - [Week 1 & 2 Progress](Week1&2.md)
+   
+## References
+### Online References
+   - [RSA Cryptosystem Wikipedia page] (https://en.wikipedia.org/wiki/RSA_(cryptosystem))
+   - [RSA Encryption v1.5] (https://datatracker.ietf.org/doc/html/rfc2313)
+   - [RSA Cryptography Specifications v2.0] (https://datatracker.ietf.org/doc/html/rfc2437)
+   - [RSA Cryptography Specifications v2.2] (https://datatracker.ietf.org/doc/html/rfc8017)
+
+## Literature References
+This secction will be populated as the project progresses.
