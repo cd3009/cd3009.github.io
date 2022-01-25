@@ -1,4 +1,4 @@
-# Padding Schemes for the RSA and its Security
+# Padding Schemes for the RSA and their Security
 
 ## Project information
    - **Faculty Advisor:** Prof. Stanisław Radziszowski
