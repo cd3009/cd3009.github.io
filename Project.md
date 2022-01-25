@@ -1,7 +1,7 @@
 # Padding Schemes for RSA and their Security
 
 ## Project information
-   - **Faculty Advisor:** Prof. Stanisław Radziszowski
+   - **Faculty Advisor:** [Prof. Stanisław Radziszowski](https://www.cs.rit.edu/~spr/)
    - Weekly status updates for the project can be found [**here**](weeklyStatus.md).
 
 
