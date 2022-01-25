@@ -3,5 +3,4 @@
 
 
 ## Capstone Project Information
-- The Capstone project for my MS in CS degree is **"Padding Schemes for RSA and their Security"**
-- More information about my project can be found [**here**](Project.md)
+- The Capstone project for my MS in CS degree is [**"Padding Schemes for RSA and their Security"**](Project.md)
