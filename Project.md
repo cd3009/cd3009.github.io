@@ -12,7 +12,7 @@
 
 
 ## Milestone Roadmap
-### Milestone 1
+### Milestone 1 (10<sup>th</sup> Jan. 2022 - 4<sup>th</sup> Feb. 2022)
       - Review literature on the RSA and Padding Schemes.
          - Review the RSA algorithm
          - Review parameter selection methods for the RSA
@@ -20,7 +20,7 @@
 
       - Implement RSA and its parameter selection algorithm.
 
-### Milestone 2
+### Milestone 2 (7<sup>th</sup> Feb. 2022 - 4<sup>th</sup> Mar. 2022)
       - Study malleability of RSA
          - Review literature on vulnerabilites of the RSA
          - Review literature on attacks performed on the RSA
@@ -35,7 +35,7 @@
          - Implement RSA with Optimal Asymmetric Encryption Padding (OAEP).
          - Implement RSA with other* Padding schemes chosen for analysis.
 
-### Milestone 3
+### Milestone 3 (7<sup>th</sup> Mar. 2022 - 15<sup>th</sup> Apr. 2022)
       - Perform experiments on the following to analyze security and performance:-
          - RSA without Padding schemes.
          - RSA implemented using PKCS #1 v1.5.
@@ -48,6 +48,8 @@
 
 > **Note:** other* padding schemes for RSA will be selected as part of research performed in Milestone 2. The plan for the project will be updated accordingly.
 
+## Presenatations
+   - [Project Overview Presentation](pop.pdf)
 
 ## References
 ### Online References
