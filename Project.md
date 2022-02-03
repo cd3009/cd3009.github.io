@@ -57,6 +57,17 @@
    - [RSA Encryption v1.5](https://datatracker.ietf.org/doc/html/rfc2313)
    - [RSA Cryptography Specifications v2.0](https://datatracker.ietf.org/doc/html/rfc2437)
    - [RSA Cryptography Specifications v2.2](https://datatracker.ietf.org/doc/html/rfc8017)
+   - [SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf)
 
 ### Literature References
-> This section will be populated as the project progresses.
+   - Eiichiro Fujisaki, Tatsuaki Okamoto, David Pointcheval, and Jacques Stern. RSA-- OAEP is secure under the RSA assumption. In J. Kilian, ed., Advances in Cryptology -- CRYPTO 2001, vol. 2139 of Lecture Notes in Computer Science, SpringerVerlag, 2001.
+   - Nemec, Matus; Sys, Marek; Svenda, Petr; Klinec, Dusan; Matyas, Vashek (November 2017). “The Return of Coppersmith's Attack: Practical Factorization of Widely Used RSA Moduli”.
+   - Coron, Jean-Sébastien; Joye, Marc; Naccache, David; Paillier, Pascal (2000). Preneel, Bart (ed.). “New Attacks on PKCS#1 v1.5 Encryption”.
+   - Victor Shoup. OAEP Reconsidered. IBM Zurich Research Lab, Saumerstr. 4, 8803 Ruschlikon, Switzerland. September 18, 2001.
+   - Alexandra Boldyreva, Hideki Imai, Life Fellow, IEEE, and Kazukuni Kobara. How to Strengthen the Security of RSA-OAEP. IEEE TRANSACTIONS ON INFORMATION THEORY, VOL. 56, NO. 11, NOVEMBER 2010.
+   - Fatma Mallouli, Aya Hellal, Nahla Sharief Saeed, Fatimah Abdulraheem Alzahrani. A Survey on Cryptography: comparative study between RSA vs ECC Algorithms, and RSA vs El-Gamal Algorithms. 2019 6th IEEE International Conference on Cyber Security and Cloud Computing (CSCloud)/ 2019 5th IEEE International Conference on Edge Computing and Scalable Cloud (EdgeCom).
+   - P. Paillier and J. Villar, Trading One-Wayness against Chosen-Ciphertext Security in Factoring-Based Encryption, Advances in Cryptology - Asiacrypt 2006.
+   - Brown, Daniel R. L. (2006). "What Hashes Make RSA-OAEP Secure?". IACR Cryptology ePrint Archive.
+
+
+
