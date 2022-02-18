@@ -20,9 +20,11 @@
 
 ### Progress for Week 4 (29<sup>th</sup> Jan. 2022 - 4<sup>th</sup> Feb. 2022)
     - Implemented parameter selection algorithm for RSA and RSA 
-    - Created Milestone 1 review Presentation and reviewed the ppt with Project Advisor
+    - Created Milestone 1 review Presentation
     - Topics discussed with Project Advisor:-
-        - Checking if odd number has a factor in 1st numbers in Parameter selection algorithm
+        - Changes in parmater selection:-
+            - Checking if odd number has a factor in 1st million numbers
+            - Improving performance by seperating prime/safe prime check
         - Detailed review and feedback on Milestone 1 review presentation.
       
 
