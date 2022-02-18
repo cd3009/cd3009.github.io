@@ -58,6 +58,8 @@
    - [RSA Cryptography Specifications v2.0](https://datatracker.ietf.org/doc/html/rfc2437)
    - [RSA Cryptography Specifications v2.2](https://datatracker.ietf.org/doc/html/rfc8017)
    - [SHA-3 Standard: Permutation-Based Hash and Extendable-Output Functions](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.202.pdf)
+   - [FIPS PUB 186-4, Digital Signature Standard](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-4.pdf)
+   - [FIPS PUB 186-4, Digital Signature Standard (Draft)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5-draft.pdf)
 
 ### Literature References
    - Eiichiro Fujisaki, Tatsuaki Okamoto, David Pointcheval, and Jacques Stern. RSA-- OAEP is secure under the RSA assumption. In J. Kilian, ed., Advances in Cryptology -- CRYPTO 2001, vol. 2139 of Lecture Notes in Computer Science, SpringerVerlag, 2001.
