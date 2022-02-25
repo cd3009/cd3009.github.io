@@ -50,6 +50,7 @@
 
 ## Project Info
    - [What is RSA? Why are Padding Schemes required?](rsa_info.md)
+   - [Parameter Selection Algorithm development process](prm_slct_info.md)
 
 ## Presenatations
    - [Project Overview Presentation](pop.pdf)
