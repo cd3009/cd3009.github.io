@@ -49,7 +49,7 @@
 > **Note:** other* padding schemes for RSA will be selected as part of research performed in Milestone 2. The plan for the project will be updated accordingly.
 
 ## Project Info
-   - [What is RSA and why Padding Schemes are required](rsa_info.md)
+   - [What is RSA? Why are Padding Schemes required?](rsa_info.md)
 
 ## Presenatations
    - [Project Overview Presentation](pop.pdf)
