@@ -1,5 +1,3 @@
-# RSA and why padding schemes are required
-
 ## What is RSA?
 Rivest-Shamir-Adleman (RSA) is a widely used [public-key cryptosystem](https://en.wikipedia.org/wiki/Public-key_cryptography) which relies on the ["factoring problem"](https://en.wikipedia.org/wiki/Integer_factorization). In simple words, the crux of RSA works with 2 large prime numbers and their product. The security of RSA is based on the fact that factoring the product to find the 2 large prime numbers is extremely difficult. Since RSA works with large (2048/4096 bit) prime numbers it is computationally expensive to implement. Thus, it is often used in transmission of shared keys for Symmetric Key Algorithms. It is also used for signing messages as a Digitial Signature. 
 
