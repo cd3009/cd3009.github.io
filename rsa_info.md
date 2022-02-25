@@ -4,59 +4,59 @@ Rivest-Shamir-Adleman (RSA) is a widely used [public-key cryptosystem](https://e
 The RSA encyrption scheme (m bit) is implemented as follows:-
 
 ### Key Generation:
-  - Choose two large distinct prime numbers of length m/2 bits (*p* and *q*).
-      - These prime numbers should be generated using a random number generator.
-      - The numbers should have equal number of bits but may differ in number of digits.
-      - The primality of the number is checked using primality tests. The primality tests usually used are:
-          - [Miller-Rabin Primality test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test)
-          - [Lucas-Lehmer Prinality test](https://en.wikipedia.org/wiki/Lucas%E2%80%93Lehmer_primality_test)
-      - The numbers *p* and *q* are kept secret.
-  
-  - Compute the product of two prime numbers as *n = pq*.
-      - The product *n* is used as the modulus for encryption and decrytion operations.
-      - *n* is an *m* bit number. Thus, an *m*-bit RSA refers to length of the modulus used.
-      - The number *n* is used as part of public key.
-  
-  - Compute ϕ(n) = (*p*-1)(*q*-1). This number is kept secret and is usually calculated using the [Euclidians Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm).
-  
-  - Choose a number *e* as the **public exponent**.
-      - *e* must be 1 < e < ϕ(n)
-      - GCD(ϕ(n), *e*) must be 1.
-      - *e* is broadcasted as part of public key.
-  
-  - Calculate *d* as the **private exponent**.
-      - *d* is the [modular multiplicative inverse](https://en.wikipedia.org/wiki/Modular_multiplicative_inverse) of e.
-      - It is calculated as *d* ≡ e<sup>-1</sup> mod ϕ(n).
-      - *d* is kept secret since it is part of the private key.
-   
-   - The private and public keys for RSA are as follows:-
-      - **Public Key** = (*e*,*n*)
-      - **Private Key** = (*d*,*n*)
+- Choose two large distinct prime numbers of length m/2 bits (*p* and *q*).
+  - These prime numbers should be generated using a random number generator.
+  - The numbers should have equal number of bits but may differ in number of digits.
+  - The primality of the number is checked using primality tests. The primality tests usually used are:
+    - [Miller-Rabin Primality test](https://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test)
+    - [Lucas-Lehmer Prinality test](https://en.wikipedia.org/wiki/Lucas%E2%80%93Lehmer_primality_test)
+  - The numbers *p* and *q* are kept secret.
+
+- Compute the product of two prime numbers as *n = pq*.
+  - The product *n* is used as the modulus for encryption and decrytion operations.
+  - *n* is an *m* bit number. Thus, an *m*-bit RSA refers to length of the modulus used.
+  - The number *n* is used as part of public key.
+
+- Compute ϕ(n) = (*p*-1)(*q*-1). This number is kept secret and is usually calculated using the [Euclidians Algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm).
+
+- Choose a number *e* as the **public exponent**.
+  - *e* must be 1 < e < ϕ(n)
+  - GCD(ϕ(n), *e*) must be 1.
+  - *e* is broadcasted as part of public key.
+
+- Calculate *d* as the **private exponent**.
+  - *d* is the [modular multiplicative inverse](https://en.wikipedia.org/wiki/Modular_multiplicative_inverse) of e.
+  - It is calculated as *d* ≡ e<sup>-1</sup> mod ϕ(n).
+  - *d* is kept secret since it is part of the private key.
+
+ - The private and public keys for RSA are as follows:-
+  - **Public Key** = (*e*,*n*)
+  - **Private Key** = (*d*,*n*)
 
 ### Key distribution and Encryption/Decryption operations:
 As any public-key cryptosystem, the public key is broadcasted by the owner and used for encrypting messages sent to them. The owner then decrypts these messages using the private key. The encryption (plaintext = *m*) and decryption (ciphertext = *c*) steps are as follows:
-   - **Encryption**: *c* = *m<sup>e</sup> mod n*
-   - **Decryption**: *m* = *c<sup>d</sup> mod n*
+- **Encryption**: *c* = *m<sup>e</sup> mod n*
+- **Decryption**: *m* = *c<sup>d</sup> mod n*
 
 ### Example:
 #### Key Generation
-   - Let the prime numbers chosen be *p*=3 and *q*=11.
-   - *n* = *p*.*q* = 33
-   - ϕ(n) = (*p*-1)(*q*-1) = 20
-   - Let e = 3 (1 < 3 < 20 and GCD(3,20) = 1)
-   - d ≡ 3<sup>-1</sup> mod 20 ≡ 7 mod 20, Hence, d = 7.
-   - Thus, public key = (3,33) and private key = (7,33)
+- Let the prime numbers chosen be *p*=3 and *q*=11.
+- *n* = *p*.*q* = 33
+- ϕ(n) = (*p*-1)(*q*-1) = 20
+- Let e = 3 (1 < 3 < 20 and GCD(3,20) = 1)
+- d ≡ 3<sup>-1</sup> mod 20 ≡ 7 mod 20, Hence, d = 7.
+- Thus, public key = (3,33) and private key = (7,33)
 
 #### Encrytion and Decrytion
-   - Encrytion:
-      - Let plaintext *m* = 4, public key = (3,33).
-      - Ciphertext (*c*) ≡ 4<sup>3</sup> mod 33 ≡ 31 mod 33
-      - Thus, *c* = 31
-  
-   - Decryption:
-      - Private key = (7,33).
-      - *m* ≡ 32<sup>7</sup> mod 33 ≡ 4 mod 33
-      - Thus, *m* = 4
+- Encrytion:
+  - Let plaintext *m* = 4, public key = (3,33).
+  - Ciphertext (*c*) ≡ 4<sup>3</sup> mod 33 ≡ 31 mod 33
+  - Thus, *c* = 31
+
+- Decryption:
+  - Private key = (7,33).
+  - *m* ≡ 32<sup>7</sup> mod 33 ≡ 4 mod 33
+  - Thus, *m* = 4
 
 ## Why Padding schemes are required?
 As seen from the above, RSA is [deterministic](https://en.wikipedia.org/wiki/Deterministic_algorithm) in nature. In simple mathematical terms, RSA(x) is always = y for plaintext x. This deterministic nature of RSA can be exploited using chosen plaintext attacks without knowing the private key.
@@ -70,9 +70,9 @@ Let Eve be the eavesdropper intercepting messages and trying to decrypt the mess
 
 
 Since, RSA and *h(x)* are deterministic, the starting messages will always be encryted as follows (using public key):
-   - RSA(h("Hi")) = 1678
-   - RSA(h("Hey")) = 1798
-   - RSA(h("Hello")) = 2768
+- RSA(h("Hi")) = 1678
+- RSA(h("Hey")) = 1798
+- RSA(h("Hello")) = 2768
  
 Note, that Eve does not know what the starting messages are, but knows how the application works. Also, the public key *(e,n)* is publicly avaliable and Eve has access to it. Eve can only see 1678, 1798 and 2768 over the network and requires the secret private key to decrypt these messages. However, there is a hack to this. Since Eve has access to *h(x)* and *(e,n)*, Eve can try encrypting plaintexts that she feels may be this ciphertext and match them against the ones she has.
 
@@ -82,10 +82,10 @@ Thus, Eve could perform RSA(h("Hey")) and get the value 1798 and match it cipher
 Padding schemes help introduce a random component to textbook RSA, thus making it [probabilistic/randomized](https://en.wikipedia.org/wiki/Randomized_algorithm) in nature. Commonly used Padding Schemes for RSA are [PKCS #1 v1.5](https://en.wikipedia.org/wiki/PKCS_1) and [Optimal Asymmetric Encrytion Padding (OAEP)](https://en.wikipedia.org/wiki/Optimal_asymmetric_encryption_padding). A more detailed description for how these Padding schemes should be implemented can be found in [RFC8017](https://datatracker.ietf.org/doc/html/rfc8017).
 
 To elaborate how a basic padding scheme works, lets return to our example. Except now Alice and Bob decide to prefix a random 4 digit number to the message before encrypting it. After decryption, the random number is simply discarded and the message is retreived. Thus, even though the 1st three messages are fixed as "Hello", "Hi" and "Hey", the cipher text generated each time would be different. For example, consider 4 new converstaions initiated by Bob using "Hi". The encrypted text would be as follows:-
-   - RSA(h("1234RSA")) = 12789
-   - RSA(h("4334RSA")) = 34389
-   - RSA(h("1634RSA")) = 23367
-   - RSA(h("0034RSA")) = 99983
+- RSA(h("1234RSA")) = 12789
+- RSA(h("4334RSA")) = 34389
+- RSA(h("1634RSA")) = 23367
+- RSA(h("0034RSA")) = 99983
 
 Now, Eve would have 4 different ciphertexts for "Hi" alone and will not able to match RSA(h("Hi")) to these ciphertexts. Eve does not know of the random padding and thus cannot decrypt the messages. Since, paddings schemes are usually public, lets say the encryption scheme generated uses a variable length number. Thus, even though Eve knows that the text is padded, she doesn't know the variable length used. This encryption scheme is not practical in a real-world application, but one gets an idea of how a padding scheme works and helps make RSA semantically secure. Multiple ciphertexts are generated for a single plaintext and thus the attacker canot match the chosen plaintexts to acquired ciphertexts without knowing the random component.
 
