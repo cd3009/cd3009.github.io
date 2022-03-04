@@ -32,10 +32,10 @@
     Since 113 is prime, 227 is a safe prime.
 
 #### [Pollard's p-1 Algorithm](https://en.wikipedia.org/wiki/Pollard%27s_p_%E2%88%92_1_algorithm)
-    The basic idea of this algorithm is that for finding prime number p, we can use p-1. If p-1 has many small prime factors, we can factor 
-    it to then find p. Since RSA uses (prime - 1) to calculate ϕ(n), the RSA primes should be safe primes. Pollards algorithm usually 
-    doesn't work with cryptographic random primes but if it does, it could be detrimental to RSA as one could easily find p or q. Thus, as 
-    part of the parameter selection process we also check for safe primes.
+The basic idea of this algorithm is that for finding prime number p, we can use p-1. If p-1 has many small prime factors, we can factor 
+it to then find p. Since RSA uses (prime - 1) to calculate ϕ(n), the RSA primes should be safe primes. Pollards algorithm usually 
+doesn't work with cryptographic random primes but if it does, it could be detrimental to RSA as one could easily find p or q. Thus, as 
+part of the parameter selection process we also check for safe primes.
 
 ### The original parameter selection algorithm for generating primes/safe primes: 
     - Generate seed value for random bit generation
@@ -61,4 +61,26 @@
     
     - Once all primes are generated, segregate primes as safe and basic primes.
 
-> This page is still under construction
+### Performance Analysis of algorithms
+#### Old parameter algorithm disadvantages
+- The old parameter algorithm was very fast in case of basic primes but very poor when it came to safe primes.
+- Directly generating safe primes was very expensive. This is because randomly generating a prime and checking for it being safe in the same loop proves to be computatationally costly.
+- The average times for the old algorithm:
+  - 2primes/sec for basic primes
+  - 1prime/2min for safe primes.
+- These times are when prime numbers for variable lengths are generated together. 
+- The generation times for safe primes of higher bit length values were poorer than above highlighted times.
+
+#### New parameter algorithm performance
+- Thus, the decision to split generation of safe primes as a filtering process was chosen.
+- In this case, a bunch of basic prime numbers are generated and then safe primes are filtered out of them. This created a significant performance increase.
+- Since higher bit numbers have lower rounds in primality tests, a filtering process was chosen.
+- The filtering process checks the odd number for factors within 3..2<sup>20</sup>-1. If any factors are present, the odd number is disacrded from primality tests.
+- This affected the performance of the new algorithm but not by much. The average time for generating primes is approx 1 prime/2 mins.
+- Due to the filtering process, more odd numbers are filtered but better quality of odd numbers are chosen for primality tests.
+
+#### Comments on Java and java.math.BigInteger
+- Since Java uses a garbage collector, memory is cleared at regular intervals rather than being immediately cleared when not required.
+- Also, BigInteger holds metadata about the number rather than just the number. This causes additional memory stress on the program.
+- The above points surely affect the performance of the new algorithm. A probable performance increase would be implementing the algorithm in Rust.
+- Rust is a compiled language and also clears memory based on scope. This may reduce the memory stress and provide for aa more meory efficient algorithm
