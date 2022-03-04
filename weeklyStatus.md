@@ -38,6 +38,14 @@
         - Possible changes to parameter selection algorithm based on FIPS 186-4 and 5
         - Attacks on PKCS #1 v1.5
 
-
+### Progress for Week 6 & 7 (12<sup>th</sup> Feb. 2022 - 25<sup>th</sup> Feb. 2022)
+    - Reviewed literature for Bleichenbacher attack
+    - Reviewed literature for OAEP and PKCS #1 v1.5
+    - Worked through implementation details for Padding Schemes of RSA
+    - Topics discussed with Project Advisor:-
+        - Feedback and review of final Milestone 1 presentation 
+        - Discussion related to research paper introduction structure
+        - Discussion regarding further tests with Padding schemes
+    
 ## Progress for Milestone 3
 > This section will be populated as the project progresses
