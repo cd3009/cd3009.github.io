@@ -30,6 +30,7 @@
     Let *p* = 227 hence *p-1* = 226.
     Now *(p-1)/2* = 113.
     Since 113 is prime, 227 is a safe prime.
+
 #### [Pollard's p-1 Algorithm](https://en.wikipedia.org/wiki/Pollard%27s_p_%E2%88%92_1_algorithm)
     The basic idea of this algorithm is that for finding prime number p, we can use p-1. If p-1 has many small prime factors, we can factor 
     it to then find p. Since RSA uses (prime - 1) to calculate ϕ(n), the RSA primes should be safe primes. Pollards algorithm usually 
