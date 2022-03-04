@@ -3,6 +3,7 @@
 ## Project information
    - **Faculty Advisor:** [Prof. Stanisław Radziszowski](https://www.cs.rit.edu/~spr/)
    - Weekly status updates for the project can be found [**here**](weeklyStatus.md).
+   - Current status of Project Paper draft can be viewed [**here**](ppaper.pdf).
 
 
 ## Project Description
@@ -48,7 +49,7 @@
 
 > **Note:** other* padding schemes for RSA will be selected as part of research performed in Milestone 2. The plan for the project will be updated accordingly.
 
-## Project Info
+## Project Progress
    - [What is RSA? Why are Padding Schemes required?](rsa_info.md)
    - [Parameter Selection Algorithm development process](prm_slct_info.md)
 
