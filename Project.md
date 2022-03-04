@@ -53,7 +53,7 @@
    - [What is RSA? Why are Padding Schemes required?](rsa_info.md)
    - [Parameter Selection Algorithm development process](prm_slct_info.md)
 
-## Presenatations
+## Presentations
    - [Project Overview Presentation](pop.pdf)
    - [Milestone 1 Progress Presentation](ppt_021022.pdf)
 
