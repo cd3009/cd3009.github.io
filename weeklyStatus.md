@@ -46,6 +46,14 @@
         - Feedback and review of final Milestone 1 presentation 
         - Discussion related to research paper introduction structure
         - Discussion regarding further tests with Padding schemes
-    
+
+### Progress for Week 8 (25<sup>th</sup> Feb. 2022 - 4<sup>th</sup> March. 2022)
+    - Researched on existing implementations of SHAKE-128/256
+    - Fixed bugs for padding scheme implementations
+    - Topics discussed with Project Advisor:-
+        - Milestone 2 presentation content
+        - Implementation details for mask generation functions
+        - Discussion related to OAEP+ and related work.
+
 ## Progress for Milestone 3
 > This section will be populated as the project progresses
