@@ -47,7 +47,7 @@
         - Discussion related to research paper introduction structure
         - Discussion regarding further tests with Padding schemes
 
-### Progress for Week 8 (25<sup>th</sup> Feb. 2022 - 4<sup>th</sup> March. 2022)
+### Progress for Week 8 (26<sup>th</sup> Feb. 2022 - 4<sup>th</sup> March. 2022)
     - Researched on existing implementations of SHAKE-128/256
     - Fixed bugs for padding scheme implementations
     - Topics discussed with Project Advisor:-
