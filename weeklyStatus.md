@@ -47,13 +47,32 @@
         - Discussion related to research paper introduction structure
         - Discussion regarding further tests with Padding schemes
 
-### Progress for Week 8 (26<sup>th</sup> Feb. 2022 - 4<sup>th</sup> March. 2022)
+### Progress for Week 8 (26<sup>th</sup> Feb. 2022 - 4<sup>th</sup> Mar. 2022)
     - Researched on existing implementations of SHAKE-128/256
     - Fixed bugs for padding scheme implementations
+    - Presented Milestone 1 progress ppt for CSCI788
     - Topics discussed with Project Advisor:-
         - Milestone 2 presentation content
         - Implementation details for mask generation functions
         - Discussion related to OAEP+ and related work.
 
+### Progress for Week 9 (5<sup>th</sup> Mar. 2022 - 11<sup>th</sup> Mar. 2022)
+    - Implemented the following Padding Schemes:
+        - Public-key Cryptography Standards #1 v1.5 (PKCS#1 v1.5)
+        - Optimal Asymmetric Encryption Padding (OAEP)
+        - OAEP has options for ddefault mask generation function (MGF) and SHAKE128/256
+    - Topics discussed with Professor:-
+        - Queries regarding SHAKE128/256
+        - Milestone 2 presenation content
+        - Current implementation of padding schemes mentioned above
+
+
 ## Progress for Milestone 3
+### Progress for Week 10 (12<sup>th</sup> Mar. 2022 - 17<sup>th</sup> Mar. 2022)
+    - Enchanced implementations for the following:-
+        - PKCS#1 v1.5
+        - OAEP with default mask generaton function
+    - SHAKE128/256 was taken from https://github.com/aelstad/keccakj
+    - Presented Milestone 2 progress ppt for CSCI788
+    
 > This section will be populated as the project progresses
