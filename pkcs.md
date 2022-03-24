@@ -5,7 +5,7 @@ Public-Key Cryptography Standard (PKCS) #1 v1.5 is one of the Padding Schemes wh
 
 ## Encryption using PKCS #1 v1.5
 
-As explained in [How RSA works with Padding Schemes?], Padding schemes are used for encoding the input message. This encoded message is then used as the input message to be encrypted by RSA. The encoding for PKCS #1 v1.5 works as displayed below:-
+As explained in [How RSA works with Padding Schemes?](ps.md), Padding schemes are used for encoding the input message. This encoded message is then used as the input message to be encrypted by RSA. The encoding for PKCS #1 v1.5 works as displayed below:-
 
 
 ![](PKCS_EN.png)
