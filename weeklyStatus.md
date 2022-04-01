@@ -75,4 +75,13 @@
     - SHAKE128/256 was taken from https://github.com/aelstad/keccakj
     - Presented Milestone 2 progress ppt for CSCI788
     
-> This section will be populated as the project progresses
+### Progress for Week 11 (18<sup>th</sup> Mar. 2022 - 25<sup>th</sup> Mar. 2022)
+    - Updated Project paper draft as per current progress. Completed following sections:-
+        - Introduction
+        - Preqs. and Prior work
+        - Padding schemes (PKCS and OAEP)
+    - Topics discussed with Professor:-
+        - Experimentation plan details.
+        - Milestone 3 presentation.
+        - Possible tools for creating Poster.
+        
