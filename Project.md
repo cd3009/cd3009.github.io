@@ -3,7 +3,7 @@
 ## Project information
    - **Faculty Advisor:** [Prof. Stanisław Radziszowski](https://www.cs.rit.edu/~spr/)
    - Weekly status updates for the project can be found [**here**](weeklyStatus.md).
-   - Current status of Project Paper draft can be viewed [**here**](ppaper.pdf).
+   - Final draft of Project Report can be viewed [**here**](ppaper.pdf).
    - Current draft for Project Poster can be viewed [**here**](Poster_pdf.pdf).
 
 ## Project Description
